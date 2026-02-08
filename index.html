@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BW AK - Advokátska kancelária Welter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+        }
+
+        .parallax-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .floating-symbol {
+            position: absolute;
+            opacity: 0.7;
+            cursor: pointer;
+            font-weight: bold;
+            pointer-events: auto;
+        }
+
+        .layer-back {
+            font-size: 22px;
+            color: #5da3fa;
+        }
+
+        .layer-mid {
+            font-size: 20px;
+            color: #7db8ff;
+        }
+
+        .layer-front {
+            font-size: 18px;
+            color: #a0c4ff;
+            opacity: 0.8;
+        }
+
+        .connection-line {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, rgba(160, 196, 255, 0.6), rgba(160, 196, 255, 0.3));
+            transform-origin: left center;
+            pointer-events: none;
+            transition: opacity 0.5s;
+            z-index: 1;
+        }
+
+        .connection-line.breaking {
+            opacity: 0;
+        }
+
+        .floating-symbol:hover {
+            opacity: 1;
+            transform: scale(1.3);
+        }
+
+        .contract-icon, .person-icon {
+            width: 22px;
+            height: 22px;
+            opacity: 1;
+            filter: drop-shadow(0 0 2px rgba(160, 196, 255, 0.5));
+        }
+
+        .person-icon {
+            stroke: currentColor;
+            stroke-width: 1.5;
+            fill: currentColor;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            min-height: 100vh;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 300;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .hero .subtitle {
+            font-size: 1.3em;
+            color: #a0c4ff;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .hero .quote {
+            font-style: italic;
+            font-size: 1.1em;
+            color: #ccc;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            text-align: center;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .service-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #a0c4ff;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            color: #a0c4ff;
+        }
+
+        .contact-card p {
+            line-height: 1.8;
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+
+        .contact-card strong {
+            color: #fff;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero .subtitle {
+                font-size: 1em;
+            }
+
+            .section-title {
+                font-size: 1.8em;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax-container" id="parallaxContainer"></div>
+
+    <div class="content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>BW AK, s.r.o.</h1>
+                <p class="subtitle">Mgr. Branislav Welter, advokát</p>
+                <p style="font-size: 1.2em; line-height: 1.6;">
+                    Poskytujeme komplexné právne služby s dôrazom na obchodné, stavebné, 
+                    energetické, daňové, trestné a rodinné právo
+                </p>
+                <p class="quote">
+                    "Čestne žiť, nikomu neškodiť, každému priznať, čo mu patrí" – Ulpianus
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">Naše služby</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Obchodné právo</h3>
+                    <p>Komplexné poradenstvo v oblasti obchodného práva, vrátane zakladania spoločností, zmluvného práva a korporátneho práva.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Stavebné právo</h3>
+                    <p>Právne poradenstvo pri stavebných projektoch, zmluvách o dielo, územnom plánovaní a stavebných konaniach.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Energetické právo</h3>
+                    <p>Špecializované právne služby v oblasti energetiky, obnoviteľných zdrojov energie a regulácie.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Daňové právo</h3>
+                    <p>Poradenstvo v oblasti daňového práva, daňová optimalizácia a zastupovanie v daňových konaniach.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Trestné právo</h3>
+                    <p>Obhajoba v trestnom konaní, zastupovanie poškodených a komplexné právne poradenstvo v trestných veciach.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Rodinné právo</h3>
+                    <p>Riešenie rodinnoprávnych vzťahov, rozvody, vyživovacie povinnosti a záležitosti týkajúce sa maloletých detí.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Kontakt a fakturačné údaje</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Kontaktné údaje</h3>
+                    <p><strong>Advokát:</strong> Mgr. Branislav Welter</p>
+                    <p><strong>Kancelária:</strong><br>Dunajská 7614/8<br>811 08 Bratislava<br>Slovenská republika</p>
+                    <p><strong>Email:</strong> <a href="mailto:advokat@welter.sk" style="color: #a0c4ff;">advokat@welter.sk</a></p>
+                    <p><strong>Telefón:</strong> +421 2 5262 5050</p>
+                    <p><strong>Web:</strong> <a href="https://www.welter.sk" style="color: #a0c4ff;">www.welter.sk</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Fakturačné údaje</h3>
+                    <p><strong>Obchodné meno:</strong> BW AK, s.r.o.</p>
+                    <p><strong>Sídlo:</strong><br>Dunajská 7614/8<br>811 08 Bratislava - mestská časť Staré Mesto</p>
+                    <p><strong>IČO:</strong> 56 621 957</p>
+                    <p><strong>DIČ:</strong> 2122362583</p>
+                    <p><strong>IBAN:</strong><br>SK49 0200 0000 0045 5953 6154</p>
+                    <p><strong>Zápis v ORSR:</strong><br>Obchodný register Mestského súdu Bratislava III, oddiel: Sro, vložka č. 182723/B</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Ďalšie informácie</h3>
+                    <p><strong>Licencia SAK:</strong> 8229</p>
+                    <p><strong>Schránka ÚPVS:</strong><br>E0007209226 (suffix 20069)</p>
+                    <p><strong>Označenie el. schránky - URI:</strong><br>ico://sk/56621957</p>
+                    <p><strong>Právna forma:</strong><br>Spoločnosť s ručením obmedzeným</p>
+                    <p><strong>Predmet podnikania:</strong><br>Poskytovanie právnych služieb</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 BW AK, s. r. o. - advokátska kancelária</p>
+        <p><a href="https://www.legalengineering.sk" target="_blank" style="color: #888; text-decoration: none;">Created by Legal Engineering</a></p>
+    </footer>
+
+    <script>
+        const container = document.getElementById('parallaxContainer');
+        const symbolsCount = 150;
+        let entities = [];
+        let connections = [];
+
+        class Entity {
+            constructor(type, x, y) {
+                this.type = type;
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * 0.05;
+                this.vy = (Math.random() - 0.5) * 0.05;
+                this.element = null;
+            }
+
+            update() {
+                // Náhodný pohyb
+                this.vx += (Math.random() - 0.5) * 0.006;
+                this.vy += (Math.random() - 0.5) * 0.006;
+
+                // Obmedzenie rýchlosti
+                const maxSpeed = 0.1;
+                const speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy);
+                if (speed > maxSpeed) {
+                    this.vx = (this.vx / speed) * maxSpeed;
+                    this.vy = (this.vy / speed) * maxSpeed;
+                }
+
+                // Aktualizácia pozície
+                this.x += this.vx;
+                this.y += this.vy;
+
+                // Odrazy
+                if (this.x < 0 || this.x > 100) this.vx *= -1;
+                if (this.y < 0 || this.y > 200) this.vy *= -1;
+
+                this.x = Math.max(0, Math.min(100, this.x));
+                this.y = Math.max(0, Math.min(200, this.y));
+
+                // Aktualizuj DOM
+                this.element.style.left = this.x + '%';
+                this.element.style.top = this.y + '%';
+            }
+        }
+
+        class Connection {
+            constructor(e1, e2) {
+                this.e1 = e1;
+                this.e2 = e2;
+                this.el = document.createElement('div');
+                this.el.className = 'connection-line';
+                container.appendChild(this.el);
+                this.opacity = 1;
+                this.age = 0;
+                this.maxAge = 300 + Math.random() * 300;
+            }
+
+            update() {
+                this.age++;
+                if (this.age > this.maxAge) {
+                    this.opacity -= 0.02;
+                    if (this.opacity <= 0) {
+                        this.el.remove();
+                        return false;
+                    }
+                }
+
+                const r1 = this.e1.element.getBoundingClientRect();
+                const r2 = this.e2.element.getBoundingClientRect();
+                const x1 = r1.left + r1.width / 2;
+                const y1 = r1.top + r1.height / 2;
+                const x2 = r2.left + r2.width / 2;
+                const y2 = r2.top + r2.height / 2;
+
+                const len = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+                const ang = Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI;
+
+                this.el.style.left = x1 + 'px';
+                this.el.style.top = y1 + 'px';
+                this.el.style.width = len + 'px';
+                this.el.style.transform = `rotate(${ang}deg)`;
+                this.el.style.opacity = this.opacity;
+
+                return true;
+            }
+        }
+
+        function createSymbols() {
+            for (let i = 0; i < symbolsCount; i++) {
+                const rand = Math.random();
+                const type = rand < 0.85 ? 'person' : rand < 0.925 ? 'contract' : 'euro';
+                const entity = new Entity(type, Math.random() * 100, Math.random() * 200);
+
+                const el = document.createElement('div');
+                el.className = 'floating-symbol ' + (i % 3 === 0 ? 'layer-back' : i % 3 === 1 ? 'layer-mid' : 'layer-front');
+                el.style.left = entity.x + '%';
+                el.style.top = entity.y + '%';
+
+                if (type === 'euro') {
+                    el.textContent = '€';
+                } else if (type === 'contract') {
+                    el.innerHTML = '<svg class="contract-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,19L12,15H9V10H15V15L13,19H10Z"/></svg>';
+                } else {
+                    el.innerHTML = '<svg class="person-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="6" r="3" fill="currentColor"/><line x1="12" y1="9" x2="12" y2="16" stroke-width="2"/><line x1="12" y1="16" x2="8" y2="22" stroke-width="2"/><line x1="12" y1="16" x2="16" y2="22" stroke-width="2"/><line x1="12" y1="11" x2="7" y2="14" stroke-width="2"/><line x1="12" y1="11" x2="17" y2="14" stroke-width="2"/></svg>';
+                }
+
+                entity.element = el;
+                entities.push(entity);
+                container.appendChild(el);
+            }
+        }
+
+        function tryConnect(e1, e2) {
+            if (e1.type === 'euro' && e2.type === 'euro') return false;
+            
+            // Skontroluj či spojenie už existuje
+            const exists = connections.some(c => 
+                (c.e1 === e1 && c.e2 === e2) || (c.e1 === e2 && c.e2 === e1)
+            );
+            if (exists) return false;
+            
+            const dx = e2.x - e1.x;
+            const dy = e2.y - e1.y;
+            if (dx * dx + dy * dy < 900) {
+                connections.push(new Connection(e1, e2));
+                return true;
+            }
+            return false;
+        }
+
+        function findNearby(entity, maxDist, typeFilter = null) {
+            return entities
+                .filter(e => e !== entity && (!typeFilter || e.type === typeFilter))
+                .map(e => {
+                    const dx = e.x - entity.x;
+                    const dy = e.y - entity.y;
+                    return { entity: e, distSq: dx * dx + dy * dy };
+                })
+                .filter(item => item.distSq < maxDist * maxDist)
+                .sort((a, b) => a.distSq - b.distSq);
+        }
+
+        function createLegalRelationship() {
+            // FÁZA 1: Vyber dokument
+            const contracts = entities.filter(e => e.type === 'contract');
+            if (contracts.length === 0) return;
+            
+            const contract = contracts[Math.floor(Math.random() * contracts.length)];
+            
+            // FÁZA 2: Nájdi 2 ľudí v blízkosti dokumentu
+            const nearbyPeople = findNearby(contract, 35, 'person');
+            if (nearbyPeople.length < 2) return;
+            
+            const person1 = nearbyPeople[0].entity;
+            const person2 = nearbyPeople[1].entity;
+            
+            // Vytvor základný vzťah: Človek 1 <-> Dokument <-> Človek 2
+            tryConnect(person1, contract);
+            tryConnect(contract, person2);
+            
+            // FÁZA 3: Pripoj ďalšieho človeka (60% šanca)
+            if (nearbyPeople.length > 2 && Math.random() < 0.6) {
+                const person3 = nearbyPeople[2].entity;
+                tryConnect(contract, person3);
+            }
+            
+            // FÁZA 4: Pripoj peniaze k vzťahu (70% šanca)
+            if (Math.random() < 0.7) {
+                const nearbyEuros = findNearby(contract, 35, 'euro');
+                if (nearbyEuros.length > 0) {
+                    const euro = nearbyEuros[0].entity;
+                    tryConnect(contract, euro);
+                    tryConnect(euro, person1);
+                    if (Math.random() < 0.5) {
+                        tryConnect(euro, person2);
+                    }
+                }
+            }
+        }
+
+        function animate() {
+            entities.forEach(e => e.update());
+            connections = connections.filter(c => c.update());
+
+            // Hlavná logika: Vytváranie právnych vzťahov cez dokumenty
+            if (Math.random() < 0.15) {  // 15% šanca každý frame
+                createLegalRelationship();
+            }
+
+            // Doplnkové spontánne prepájanie blízkych entít (5% šanca)
+            if (Math.random() < 0.05) {
+                const e1 = entities[Math.floor(Math.random() * entities.length)];
+                const nearby = findNearby(e1, 25);
+                if (nearby.length > 0) {
+                    const e2 = nearby[Math.floor(Math.random() * Math.min(3, nearby.length))].entity;
+                    tryConnect(e1, e2);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        createSymbols();
+        animate();
+    </script>
+</body>
+</html>
