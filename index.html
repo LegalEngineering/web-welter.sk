@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
- 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FHE8V2S4T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4FHE8V2S4T');
-</script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BW AK - Advokátska kancelária Welter</title>
+    <meta name="description" content="BW AK, s.r.o. – Mgr. Branislav Welter, advokát. Komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.">
+    <link rel="canonical" href="https://www.welter.sk/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="sk_SK">
+    <meta property="og:site_name" content="BW AK - Advokátska kancelária Welter">
+    <meta property="og:title" content="BW AK - Advokátska kancelária Welter">
+    <meta property="og:description" content="Mgr. Branislav Welter, advokát. Komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.">
+    <meta property="og:url" content="https://www.welter.sk/">
+    <!-- Google Analytics 4 + Consent Mode v2: všetko „denied“; gtag.js sa načíta až po kliknutí na Prijať (consent.js) -->
+    <script>
+    window.CONSENT_CFG={key:'welter_consent_v1',ga:'G-4FHE8V2S4T'};
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});
+    gtag('set','ads_data_redaction',true);
+    try{if(localStorage.getItem(CONSENT_CFG.key)==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
+    gtag('js',new Date());
+    gtag('config','G-4FHE8V2S4T',{allow_google_signals:false,allow_ad_personalization_signals:false});
+    </script>
+    <style>
+        :root{--cb-bg:#16213e;--cb-fg:#fff;--cb-accent:#a0c4ff;--cb-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin-top:10px;font-size:.95em}
+        .foot-links a,.foot-links button{color:#888;background:none;border:0;padding:0;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+        .foot-links a:hover,.foot-links button:hover{color:#a0c4ff}
+    </style>
     <style>
         * {
             margin: 0;
@@ -232,7 +245,7 @@
                     <p><strong>Advokát:</strong> Mgr. Branislav Welter</p>
                     <p><strong>Kancelária:</strong><br>Dunajská 7614/8<br>811 08 Bratislava<br>Slovenská republika</p>
                     <p><strong>Email:</strong> <a href="mailto:advokat@welter.sk" style="color: #a0c4ff;">advokat@welter.sk</a></p>
-                    <p><strong>Telefón:</strong> +421 2 5262 5050</p>
+                    <p><strong>Telefón:</strong> <a href="tel:+421252625050" style="color: #a0c4ff;">+421 2 5262 5050</a></p>
                     <p><strong>Web:</strong> <a href="https://www.welter.sk" style="color: #a0c4ff;">www.welter.sk</a></p>
                 </div>
 
@@ -261,7 +274,14 @@
     <footer>
         <p>&copy; 2026 BW AK, s. r. o. - advokátska kancelária</p>
         <p><a href="https://www.legalengineering.sk" target="_blank" style="color: #888; text-decoration: none;">Created by Legal Engineering</a></p>
+        <nav class="foot-links" aria-label="Ochrana údajov"><a href="/ochrana-osobnych-udajov/">Ochrana osobných údajov</a><button type="button" data-consent-open>Nastavenia cookies</button></nav>
     </footer>
+
+    <div id="consentBar" class="cb" role="region" aria-label="Súhlas s analytickými cookies" hidden>
+        <p>So súhlasom budeme na meranie návštevnosti používať Google Analytics, ktorý ukladá cookies. Bez súhlasu sa návštevnosť nemeria a cookies sa neukladajú. <a href="/ochrana-osobnych-udajov/">Viac o spracúvaní údajov</a></p>
+        <div class="cb-btns"><button type="button" data-c="denied">Odmietnuť</button><button type="button" data-c="granted">Prijať</button></div>
+    </div>
+    <script src="/consent.js"></script>
 
 </body>
 </html>
