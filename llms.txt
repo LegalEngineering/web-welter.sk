@@ -1,0 +1,38 @@
+# BW AK, s.r.o. – Advokátska kancelária Welter
+
+> Advokátska kancelária Mgr. Branislava Weltera, advokáta, so sídlom v Bratislave; poskytuje komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.
+
+BW AK, s.r.o. (na webe aj v tvare „BW AK, s. r. o.“) je advokátska kancelária – spoločnosť s ručením obmedzeným s predmetom podnikania poskytovanie právnych služieb. Sídlo: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika. IČO 56 621 957. Zápis: Obchodný register Mestského súdu Bratislava III, oddiel Sro, vložka č. 182723/B. Advokát: Mgr. Branislav Welter, licencia SAK 8229. Web je v slovenčine.
+
+Oblasti práva uvedené na webe:
+
+- Obchodné právo: zakladanie spoločností, zmluvné právo, korporátne právo.
+- Stavebné právo: stavebné projekty, zmluvy o dielo, územné plánovanie, stavebné konania.
+- Energetické právo: energetika, obnoviteľné zdroje energie, regulácia.
+- Daňové právo: daňové poradenstvo, daňová optimalizácia, zastupovanie v daňových konaniach.
+- Trestné právo: obhajoba v trestnom konaní, zastupovanie poškodených, poradenstvo v trestných veciach.
+- Rodinné právo: rozvody, vyživovacie povinnosti, záležitosti maloletých detí.
+
+## Stránky
+
+- [Hlavná stránka](https://www.welter.sk/): predstavenie kancelárie, služby, kontakt a fakturačné údaje.
+- [Naše služby](https://www.welter.sk/#services): prehľad šiestich oblastí práva.
+- [Kontakt a fakturačné údaje](https://www.welter.sk/#contact): adresa, e-mail, telefón, IČO, DIČ, IBAN, zápis v ORSR, licencia SAK, schránka ÚPVS.
+- [Ochrana osobných údajov](https://www.welter.sk/ochrana-osobnych-udajov/): zásady spracúvania osobných údajov návštevníkov webu – Google Analytics 4 len so súhlasom, e-mailová komunikácia, práva dotknutej osoby.
+
+## Kontakt
+
+- [advokat@welter.sk](mailto:advokat@welter.sk): e-mail kancelárie, aj pre otázky ochrany osobných údajov.
+- [+421 908 849 910](tel:+421908849910): telefón.
+- Adresa: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika.
+
+## Súvisiace weby kancelárie
+
+- [novystavebnyzakon.sk](https://novystavebnyzakon.sk/): nový stavebný zákon, ilustrované vydanie.
+- [odporprotirozkazu.sk](https://odporprotirozkazu.sk/): odpor proti platobnému rozkazu, spotrebiteľské úvery.
+- [peniaze-spat.sk](https://peniaze-spat.sk/): informácie pre veriteľov Proxenty.
+
+## Optional
+
+- [Sitemap](https://www.welter.sk/sitemap.xml): zoznam stránok webu.
+- [robots.txt](https://www.welter.sk/robots.txt): pravidlá pre crawlery.
