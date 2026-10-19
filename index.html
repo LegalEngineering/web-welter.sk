@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BW AK - Advokátska kancelária Welter</title>
-    <meta name="description" content="BW AK, s.r.o. – Mgr. Branislav Welter, advokát. Komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.">
+    <meta name="description" content="Mgr. Branislav Welter, advokát. Právo je systém. Poznáme jeho štruktúru a využijeme ju vo váš prospech.">
     <link rel="canonical" href="https://www.welter.sk/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="sk_SK">
     <meta property="og:site_name" content="BW AK - Advokátska kancelária Welter">
     <meta property="og:title" content="BW AK - Advokátska kancelária Welter">
-    <meta property="og:description" content="Mgr. Branislav Welter, advokát. Komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.">
+    <meta property="og:description" content="Mgr. Branislav Welter, advokát. Právo je systém. Poznáme jeho štruktúru a využijeme ju vo váš prospech.">
     <meta property="og:url" content="https://www.welter.sk/">
     <script type="application/ld+json">
     {
@@ -22,7 +22,7 @@
           "name": "BW AK, s.r.o.",
           "legalName": "BW AK, s.r.o.",
           "alternateName": "Advokátska kancelária Welter",
-          "description": "Mgr. Branislav Welter, advokát. Komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.",
+          "description": "Mgr. Branislav Welter, advokát. Právo je systém. Poznáme jeho štruktúru a využijeme ju vo váš prospech.",
           "url": "https://www.welter.sk/",
           "telephone": "+421908849910",
           "email": "advokat@welter.sk",
@@ -41,12 +41,9 @@
             "value": "56621957"
           },
           "knowsAbout": [
-            "Obchodné právo",
-            "Stavebné právo",
-            "Energetické právo",
-            "Daňové právo",
-            "Trestné právo",
-            "Rodinné právo"
+            "Development",
+            "Realitné a transakčné štruktúrovanie",
+            "Majetkové a obchodné spory"
           ],
           "employee": { "@id": "https://www.welter.sk/#branislav-welter" }
         },
@@ -118,7 +115,7 @@
         }
 
         .hero {
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -140,6 +137,19 @@
             font-weight: 300;
             margin-bottom: 20px;
             letter-spacing: 2px;
+        }
+
+        .hero .eyebrow {
+            font-size: 1em;
+            color: #a0c4ff;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .hero .lead {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #ccc;
         }
 
         .hero .subtitle {
@@ -192,6 +202,39 @@
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             background: rgba(255, 255, 255, 0.08);
+        }
+
+        .services-stack {
+            grid-template-columns: 1fr;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .service-card p {
+            line-height: 1.7;
+            color: #ddd;
+        }
+
+        .media-list {
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        .media-list li {
+            padding: 12px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            line-height: 1.5;
+        }
+
+        .media-list a {
+            color: #a0c4ff;
+        }
+
+        .media-list .media-src {
+            display: block;
+            font-size: .9em;
+            color: #999;
         }
 
         .service-card h3 {
@@ -264,44 +307,48 @@
     <div class="content">
         <section class="hero">
             <div class="hero-content">
-                <h1>BW AK, s.r.o.</h1>
-                <p class="subtitle">Mgr. Branislav Welter, advokát</p>
-                <p style="font-size: 1.2em; line-height: 1.6;">
-                    Poskytujeme komplexné právne služby s dôrazom na obchodné, stavebné, 
-                    energetické, daňové, trestné a rodinné právo
-                </p>
-                <p class="quote">
-                    "Čestne žiť, nikomu neškodiť, každému priznať, čo mu patrí" – Ulpianus
-                </p>
+                <p class="eyebrow">Mgr. Branislav Welter, advokát</p>
+                <h1>Právo je systém.</h1>
+                <p class="subtitle">Poznáme jeho štruktúru a využijeme ju vo váš prospech.</p>
+                <p class="lead">Pri zložitých majetkových, developerských a transakčných projektoch nerozhoduje znalosť jednotlivého paragrafu, ale pochopenie celej štruktúry — vzťahov, rizík, dôsledkov a načasovania. Systém má fungujúce časti, ale aj zraniteľnosti — poznáme oboje a vieme s tým pracovať.</p>
             </div>
         </section>
 
         <section id="services">
             <h2 class="section-title">Naše služby</h2>
-            <div class="services-grid">
+            <div class="services-grid services-stack">
                 <div class="service-card">
-                    <h3>Obchodné právo</h3>
-                    <p>Komplexné poradenstvo v oblasti obchodného práva, vrátane zakladania spoločností, zmluvného práva a korporátneho práva.</p>
+                    <h3>Development — za stavebníka, ale aj suseda</h3>
+                    <p>Úspešné projekty sú tie, pri ktorých je advokát od prvotnej myšlienky — nie až po dvoch rokoch prieťahov. Projekty konzultujeme od posúdenia možností územného plánu cez úpravu vzťahov vecnými bremenami, nájomnými zmluvami či inými právami. Už pri zrode myšlienky nastavujeme optimálnu štruktúru z hľadiska predajnosti, rizík, optimalizácie nákladov (nielen daňových) a možností financovania. Pokračujeme zastupovaním v konaniach až po finálny predaj, rokovania s kupujúcimi a ich bankami, katastrálne konania či spory z vád. Barikádu poznáme zo všetkých strán — vieme, ako rozmýšľa developer, kupujúci aj nespokojný sused; vieme, ako má konať stavebný úrad a čo robiť, keď nekoná. Rozumieme „starému“ stavebnému zákonu (50/1976 Zb.) aj novému (25/2025 Z. z.) vrátane príležitostí, ktoré priniesli prechodné ustanovenia pre dodatočnú legalizáciu stavieb.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Stavebné právo</h3>
-                    <p>Právne poradenstvo pri stavebných projektoch, zmluvách o dielo, územnom plánovaní a stavebných konaniach.</p>
+                    <h3>Realitné a transakčné štruktúrovanie</h3>
+                    <p>Zložitá transakcia sa nezačína šablónou zmluvy. Správne nastavenie musí zohľadniť celý systém — možnosti predaja obchodného podielu, podniku či priamo nehnuteľnosti, (spolu)vlastnícke práva, postoje a záujmy záložných veriteľov na oboch stranách, financovanie, zabezpečenie rizík (escrow, vinkulácia, úschova), daňové a cash-flow dôsledky aj potransakčné riziká. Rýchla transakcia stojí na dobrom úvodnom nastavení štruktúry, ktorú akceptujú strany, banky, daňoví poradcovia aj verejná správa. A následne na precíznych zmluvách, ktoré myslia aj na menej pravdepodobné scenáre.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Energetické právo</h3>
-                    <p>Špecializované právne služby v oblasti energetiky, obnoviteľných zdrojov energie a regulácie.</p>
+                    <h3>Majetkové a obchodné spory — analytická obrana</h3>
+                    <p>Najlepší spor je ten, ktorý nikdy nevznikne — predchádzame mu dobre postavenými zmluvami. Spory sú však bežnou súčasťou podnikania aj súkromného života a advokát je na nezaplatenie už vo fáze, keď je spor ešte len na obzore. Dôkladnou analýzou východiskových podmienok a dostupných možností vieme klienta pripraviť na spor tak, aby v konaní držal taktovku, a nie iba lístok do hľadiska.</p>
                 </div>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2 class="section-title">Keď systém zlyhá</h2>
+            <div class="services-grid services-stack">
                 <div class="service-card">
-                    <h3>Daňové právo</h3>
-                    <p>Poradenstvo v oblasti daňového práva, daňová optimalizácia a zastupovanie v daňových konaniach.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Trestné právo</h3>
-                    <p>Obhajoba v trestnom konaní, zastupovanie poškodených a komplexné právne poradenstvo v trestných veciach.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Rodinné právo</h3>
-                    <p>Riešenie rodinnoprávnych vzťahov, rozvody, vyživovacie povinnosti a záležitosti týkajúce sa maloletých detí.</p>
+                    <p>Poisťovňa odmietne plniť. Úrad nekoná, nedoručuje, zamietne. Správca zlyhá. Práve preto, že rozumieme štruktúre systému, vieme presne pomenovať, kde sa zlomil — a navrhnúť nápravu. Médiá nás k týmto prípadom volajú ako odborný hlas:</p>
+                    <ul class="media-list">
+                        <li><a href="https://spravy.stvr.sk/2026/03/situacia-okolo-zrazky-dvoch-aut-sa-zdala-byt-jasna-vinnik-sa-priznal-poistovna-vsak-opravu-nepreplati" target="_blank" rel="noopener">Bánovce nad Bebravou — vodič dodávky, poisťovňa odmieta</a><span class="media-src">STVR · 21. 3. 2026</span></li>
+                        <li><a href="https://spravy.stvr.sk/2026/02/nahrobne-kamene-na-mestskom-cintorine-v-trencine-poskodil-spadnuty-strom-poistovna-ani-mesto-skodu-nepreplatia" target="_blank" rel="noopener">Náhrobné kamene Trenčín — spadnutý strom, poisťovňa</a><span class="media-src">STVR · 27. 2. 2026</span></li>
+                        <li><a href="https://spravy.stvr.sk/2026/02/pozor-na-samozvanych-reviznych-technikov-zaklopali-aj-u-jana-po-ich-navsteve-mu-zostal-zbytocny-papier-za-stovky-eur/" target="_blank" rel="noopener">Pozor na samozvaných revíznych technikov, zaklopali aj u Jána</a><span class="media-src">STVR · 8. 2. 2026</span></li>
+                        <li><a href="https://spravy.stvr.sk/2025/10/medzi-rodinnymi-domami-v-dunajskej-luznej-sa-nachadza-autolakovna-susedia-su-nestastni-za-jej-zrusenie-bojuju-uz-roky/" target="_blank" rel="noopener">Autolakovňa medzi domami v Dunajskej Lužnej</a><span class="media-src">STVR · 1. 10. 2025</span></li>
+                        <li><a href="https://spravy.rtvs.sk/2024/09/pan-cerny-nakupoval-cez-inzerat-novy-telefon-ani-peniaze-nema-a-prisiel-aj-o-svoju-identitu/" target="_blank" rel="noopener">Pán Černý nakupoval cez inzerát — telefón ani peniaze, prišiel aj o identitu</a><span class="media-src">RTVS · 24. 9. 2024</span></li>
+                        <li><a href="https://spravy.stvr.sk/2024/05/pani-adriana-tvrdi-ze-spadla-z-operacneho-stola-svedecke-vypovede-lekarov-sa-rozchadzaju-k-pravde-sa-nevie-dopatrat/" target="_blank" rel="noopener">Pani Adriana — pád z operačného stola</a><span class="media-src">RTVS · 1. 5. 2024</span></li>
+                        <li><a href="https://spravy.stvr.sk/2024/03/smetisko-v-centre-bratislavy-obyvatelia-sa-stali-rukojemnikmi-byvaleho-spravcu/" target="_blank" rel="noopener">Smetisko v centre Bratislavy: Obyvatelia rukojemníkmi bývalého správcu</a><span class="media-src">RTVS · 24. 3. 2024</span></li>
+                        <li><a href="https://spravy.stvr.sk/2023/12/namiesto-studenej-vody-im-z-kohutikov-tecie-len-vlazna-obyvatelia-novostavby-sa-boja-o-svoje-zdravie/" target="_blank" rel="noopener">Namiesto studenej vody im tečie len vlažná</a><span class="media-src">RTVS · 3. 12. 2023</span></li>
+                        <li><a href="https://www.zenskyweb.sk/advokat-branislav-welter-ked-podvodnik-podvodnikov-stiahne-pod-vodu/" target="_blank" rel="noopener">Keď podvodník podvodníka stiahne pod vodu</a><span class="media-src">zenskyweb.sk · 26. 1. 2023</span></li>
+                        <li><a href="https://www.zenskyweb.sk/z-porodnej-saly-do-sudnej-siene/" target="_blank" rel="noopener">Z pôrodnej sály do súdnej siene</a><span class="media-src">zenskyweb.sk · 2. 1. 2023</span></li>
+                    </ul>
                 </div>
             </div>
         </section>
