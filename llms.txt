@@ -1,24 +1,39 @@
 # BW AK, s.r.o. – Advokátska kancelária Welter
 
-> Advokátska kancelária Mgr. Branislava Weltera, advokáta, so sídlom v Bratislave; poskytuje komplexné právne služby s dôrazom na obchodné, stavebné, energetické, daňové, trestné a rodinné právo.
+> Advokátska kancelária Mgr. Branislava Weltera, advokáta, so sídlom v Bratislave. Právo je systém. Poznáme jeho štruktúru a využijeme ju vo váš prospech.
 
 BW AK, s.r.o. (na webe aj v tvare „BW AK, s. r. o.“) je advokátska kancelária – spoločnosť s ručením obmedzeným s predmetom podnikania poskytovanie právnych služieb. Sídlo: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika. IČO 56 621 957. Zápis: Obchodný register Mestského súdu Bratislava III, oddiel Sro, vložka č. 182723/B. Advokát: Mgr. Branislav Welter, licencia SAK 8229. Web je v slovenčine.
 
-Oblasti práva uvedené na webe:
+Pri zložitých majetkových, developerských a transakčných projektoch nerozhoduje znalosť jednotlivého paragrafu, ale pochopenie celej štruktúry — vzťahov, rizík, dôsledkov a načasovania. Systém má fungujúce časti, ale aj zraniteľnosti — poznáme oboje a vieme s tým pracovať.
 
-- Obchodné právo: zakladanie spoločností, zmluvné právo, korporátne právo.
-- Stavebné právo: stavebné projekty, zmluvy o dielo, územné plánovanie, stavebné konania.
-- Energetické právo: energetika, obnoviteľné zdroje energie, regulácia.
-- Daňové právo: daňové poradenstvo, daňová optimalizácia, zastupovanie v daňových konaniach.
-- Trestné právo: obhajoba v trestnom konaní, zastupovanie poškodených, poradenstvo v trestných veciach.
-- Rodinné právo: rozvody, vyživovacie povinnosti, záležitosti maloletých detí.
+Oblasti uvedené na webe:
+
+- Development — za stavebníka, ale aj suseda: Úspešné projekty sú tie, pri ktorých je advokát od prvotnej myšlienky — nie až po dvoch rokoch prieťahov. Projekty konzultujeme od posúdenia možností územného plánu cez úpravu vzťahov vecnými bremenami, nájomnými zmluvami či inými právami. Už pri zrode myšlienky nastavujeme optimálnu štruktúru z hľadiska predajnosti, rizík, optimalizácie nákladov (nielen daňových) a možností financovania. Pokračujeme zastupovaním v konaniach až po finálny predaj, rokovania s kupujúcimi a ich bankami, katastrálne konania či spory z vád. Barikádu poznáme zo všetkých strán — vieme, ako rozmýšľa developer, kupujúci aj nespokojný sused; vieme, ako má konať stavebný úrad a čo robiť, keď nekoná. Rozumieme „starému“ stavebnému zákonu (50/1976 Zb.) aj novému (25/2025 Z. z.) vrátane príležitostí, ktoré priniesli prechodné ustanovenia pre dodatočnú legalizáciu stavieb.
+- Realitné a transakčné štruktúrovanie: Zložitá transakcia sa nezačína šablónou zmluvy. Správne nastavenie musí zohľadniť celý systém — možnosti predaja obchodného podielu, podniku či priamo nehnuteľnosti, (spolu)vlastnícke práva, postoje a záujmy záložných veriteľov na oboch stranách, financovanie, zabezpečenie rizík (escrow, vinkulácia, úschova), daňové a cash-flow dôsledky aj potransakčné riziká. Rýchla transakcia stojí na dobrom úvodnom nastavení štruktúry, ktorú akceptujú strany, banky, daňoví poradcovia aj verejná správa. A následne na precíznych zmluvách, ktoré myslia aj na menej pravdepodobné scenáre.
+- Majetkové a obchodné spory — analytická obrana: Najlepší spor je ten, ktorý nikdy nevznikne — predchádzame mu dobre postavenými zmluvami. Spory sú však bežnou súčasťou podnikania aj súkromného života a advokát je na nezaplatenie už vo fáze, keď je spor ešte len na obzore. Dôkladnou analýzou východiskových podmienok a dostupných možností vieme klienta pripraviť na spor tak, aby v konaní držal taktovku, a nie iba lístok do hľadiska.
 
 ## Stránky
 
-- [Hlavná stránka](https://www.welter.sk/): predstavenie kancelárie, služby, kontakt a fakturačné údaje.
-- [Naše služby](https://www.welter.sk/#services): prehľad šiestich oblastí práva.
+- [Hlavná stránka](https://www.welter.sk/): predstavenie kancelárie, oblasti, mediálne výstupy, kontakt a fakturačné údaje.
+- [Naše služby](https://www.welter.sk/#services): Development; Realitné a transakčné štruktúrovanie; Majetkové a obchodné spory.
+- [Keď systém zlyhá](https://www.welter.sk/#media): mediálne výstupy (odkazy).
 - [Kontakt a fakturačné údaje](https://www.welter.sk/#contact): adresa, e-mail, telefón, IČO, DIČ, IBAN, zápis v ORSR, licencia SAK, schránka ÚPVS.
 - [Ochrana osobných údajov](https://www.welter.sk/ochrana-osobnych-udajov/): zásady spracúvania osobných údajov návštevníkov webu – Google Analytics 4 len so súhlasom, e-mailová komunikácia, práva dotknutej osoby.
+
+## Keď systém zlyhá
+
+Poisťovňa odmietne plniť. Úrad nekoná, nedoručuje, zamietne. Správca zlyhá. Práve preto, že rozumieme štruktúre systému, vieme presne pomenovať, kde sa zlomil — a navrhnúť nápravu. Médiá nás k týmto prípadom volajú ako odborný hlas:
+
+- [Bánovce nad Bebravou — vodič dodávky, poisťovňa odmieta](https://spravy.stvr.sk/2026/03/situacia-okolo-zrazky-dvoch-aut-sa-zdala-byt-jasna-vinnik-sa-priznal-poistovna-vsak-opravu-nepreplati): STVR, 21. 3. 2026.
+- [Náhrobné kamene Trenčín — spadnutý strom, poisťovňa](https://spravy.stvr.sk/2026/02/nahrobne-kamene-na-mestskom-cintorine-v-trencine-poskodil-spadnuty-strom-poistovna-ani-mesto-skodu-nepreplatia): STVR, 27. 2. 2026.
+- [Pozor na samozvaných revíznych technikov, zaklopali aj u Jána](https://spravy.stvr.sk/2026/02/pozor-na-samozvanych-reviznych-technikov-zaklopali-aj-u-jana-po-ich-navsteve-mu-zostal-zbytocny-papier-za-stovky-eur/): STVR, 8. 2. 2026.
+- [Autolakovňa medzi domami v Dunajskej Lužnej](https://spravy.stvr.sk/2025/10/medzi-rodinnymi-domami-v-dunajskej-luznej-sa-nachadza-autolakovna-susedia-su-nestastni-za-jej-zrusenie-bojuju-uz-roky/): STVR, 1. 10. 2025.
+- [Pán Černý nakupoval cez inzerát — telefón ani peniaze, prišiel aj o identitu](https://spravy.rtvs.sk/2024/09/pan-cerny-nakupoval-cez-inzerat-novy-telefon-ani-peniaze-nema-a-prisiel-aj-o-svoju-identitu/): RTVS, 24. 9. 2024.
+- [Pani Adriana — pád z operačného stola](https://spravy.stvr.sk/2024/05/pani-adriana-tvrdi-ze-spadla-z-operacneho-stola-svedecke-vypovede-lekarov-sa-rozchadzaju-k-pravde-sa-nevie-dopatrat/): RTVS, 1. 5. 2024.
+- [Smetisko v centre Bratislavy: Obyvatelia rukojemníkmi bývalého správcu](https://spravy.stvr.sk/2024/03/smetisko-v-centre-bratislavy-obyvatelia-sa-stali-rukojemnikmi-byvaleho-spravcu/): RTVS, 24. 3. 2024.
+- [Namiesto studenej vody im tečie len vlažná](https://spravy.stvr.sk/2023/12/namiesto-studenej-vody-im-z-kohutikov-tecie-len-vlazna-obyvatelia-novostavby-sa-boja-o-svoje-zdravie/): RTVS, 3. 12. 2023.
+- [Keď podvodník podvodníka stiahne pod vodu](https://www.zenskyweb.sk/advokat-branislav-welter-ked-podvodnik-podvodnikov-stiahne-pod-vodu/): zenskyweb.sk, 26. 1. 2023.
+- [Z pôrodnej sály do súdnej siene](https://www.zenskyweb.sk/z-porodnej-saly-do-sudnej-siene/): zenskyweb.sk, 2. 1. 2023.
 
 ## Kontakt
 
