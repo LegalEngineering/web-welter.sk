@@ -1,0 +1,13 @@
+# Konce riadkov: všetko textové sa commituje aj checkoutuje ako LF (aj pri core.autocrlf=true).
+* text=auto eol=lf
+
+# Binárne typy: nikdy nekonvertovať
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
