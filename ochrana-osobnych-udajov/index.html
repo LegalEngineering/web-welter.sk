@@ -1,101 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ochrana osobných údajov | BW AK - Advokátska kancelária Welter</title>
-    <meta name="description" content="Ako BW AK, s.r.o. spracúva osobné údaje návštevníkov webu welter.sk: Google Analytics 4 na základe súhlasu, e-mailová komunikácia, práva dotknutej osoby.">
-    <link rel="canonical" href="https://www.welter.sk/ochrana-osobnych-udajov/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="sk_SK">
-    <meta property="og:site_name" content="BW AK - Advokátska kancelária Welter">
-    <meta property="og:title" content="Ochrana osobných údajov | BW AK - Advokátska kancelária Welter">
-    <meta property="og:description" content="Ako BW AK, s.r.o. spracúva osobné údaje návštevníkov webu welter.sk: Google Analytics 4 na základe súhlasu, e-mailová komunikácia, práva dotknutej osoby.">
-    <meta property="og:url" content="https://www.welter.sk/ochrana-osobnych-udajov/">
-    <!-- Google Analytics 4 + Consent Mode v2: všetko „denied“; gtag.js sa načíta až po kliknutí na Prijať (consent.js) -->
-    <script>
-    window.CONSENT_CFG={key:'welter_consent_v1',ga:'G-4FHE8V2S4T'};
-    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-    gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});
-    gtag('set','ads_data_redaction',true);
-    try{if(localStorage.getItem(CONSENT_CFG.key)==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
-    gtag('js',new Date());
-    gtag('config','G-4FHE8V2S4T',{allow_google_signals:false,allow_ad_personalization_signals:false});
-    </script>
-    <style>
-        :root{--cb-bg:#16213e;--cb-fg:#fff;--cb-accent:#a0c4ff;--cb-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-        .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin-top:10px;font-size:.95em}
-        .foot-links a,.foot-links button{color:#888;background:none;border:0;padding:0;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
-        .foot-links a:hover,.foot-links button:hover{color:#a0c4ff}
-    </style>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow-x: hidden; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #fff; min-height: 100vh; }
-        a { color: #a0c4ff; }
-        .top { max-width: 860px; margin: 0 auto; padding: 28px 20px 0; }
-        .top a { text-decoration: none; font-size: 1.05em; }
-        main { max-width: 860px; margin: 0 auto; padding: 30px 20px 80px; }
-        .card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); padding: 40px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1); }
-        h1 { font-size: 2.5em; font-weight: 300; margin-bottom: 30px; }
-        h2 { font-size: 1.5em; color: #a0c4ff; font-weight: 400; margin: 34px 0 12px; }
-        h2:first-child { margin-top: 0; }
-        p { line-height: 1.8; margin-bottom: 12px; color: #ccc; }
-        p b, code { color: #fff; }
-        .btn { border: 2px solid #a0c4ff; border-radius: 999px; padding: 8px 18px; font: 600 15px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; cursor: pointer; background: transparent; color: #fff; margin-top: 6px; }
-        .btn:hover { background: #a0c4ff; color: #16213e; }
-        .upd { margin-top: 30px; font-size: .95em; color: #888; }
-        footer { text-align: center; padding: 40px 20px; background: rgba(0, 0, 0, 0.3); color: #888; }
-        @media (max-width: 768px) { h1 { font-size: 1.8em; } .card { padding: 24px; } }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ochrana osobných údajov – welter.sk</title>
+<meta name="description" content="Ako BW AK, s.r.o. spracúva osobné údaje návštevníkov webu welter.sk: štatistika návštevnosti bez cookies, Google Analytics 4 na základe súhlasu, e-mailová komunikácia, práva dotknutej osoby.">
+<link rel="canonical" href="https://www.welter.sk/ochrana-osobnych-udajov/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sk_SK">
+<meta property="og:site_name" content="BW AK, s.r.o. – Mgr. Branislav Welter, advokát">
+<meta property="og:title" content="Ochrana osobných údajov – welter.sk">
+<meta property="og:description" content="Ako BW AK, s.r.o. spracúva osobné údaje návštevníkov webu welter.sk: štatistika návštevnosti bez cookies, Google Analytics 4 na základe súhlasu, e-mailová komunikácia, práva dotknutej osoby.">
+<meta property="og:url" content="https://www.welter.sk/ochrana-osobnych-udajov/">
+<meta property="og:image" content="https://www.welter.sk/img/og/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F6F3EC">
+<link rel="preload" href="/assets/fonts/Newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Newsreader-normal-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/SourceSans3-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Postrehy – welter.sk" href="/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Úvod","item":"https://www.welter.sk/"},{"@type":"ListItem","position":2,"name":"Ochrana osobných údajov","item":"https://www.welter.sk/ochrana-osobnych-udajov/"}]}</script>
+<script>
+window.CONSENT_CFG={key:'welter_consent_v1',ga:'G-4FHE8V2S4T'};
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});
+gtag('set','ads_data_redaction',true);
+try{if(localStorage.getItem(CONSENT_CFG.key)==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
+gtag('js',new Date());
+gtag('config','G-4FHE8V2S4T',{allow_google_signals:false,allow_ad_personalization_signals:false});
+</script>
 </head>
 <body>
-    <div class="top"><a href="/">&larr; BW AK, s.r.o. – Mgr. Branislav Welter, advokát</a></div>
-    <main>
-        <h1>Ochrana osobných údajov</h1>
-        <div class="card">
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+<header class="masthead">
+ <div class="wrap">
+  <div class="dateline"><span>Bratislava · Advokátska kancelária</span><span>Licencia SAK č. 8229</span></div>
+  <div class="masthead__bar">
+   <a class="brand" href="/"><span class="brand__name">Mgr. Branislav Welter, advokát</span><span class="brand__firm">BW AK, s.r.o.</span></a>
+   <nav class="nav" aria-label="Hlavná navigácia"><ul><li><a href="/#services">Oblasti</a></li><li><a href="/media/">Médiá</a></li><li><a href="/postrehy/">Postrehy</a></li><li><a href="/#contact">Kontakt</a></li></ul></nav>
+  </div>
+ </div>
+</header>
+<nav class="crumbs" aria-label="Omrvinková navigácia"><div class="wrap"><ol><li><a href="/">Úvod</a></li><li><span aria-current="page">Ochrana osobných údajov</span></li></ol></div></nav>
+<main id="obsah">
+ <div class="wrap">
+  <header class="page-head"><span class="kicker">Právne informácie</span><h1>Ochrana osobných údajov</h1></header>
+  <div class="prose">
 <h2>Prevádzkovateľ</h2>
-<p>BW AK, s.r.o., advokátska kancelária, so sídlom Dunajská 7614/8, 811 08 Bratislava, IČO 56 621 957, zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel Sro, vložka č. 182723/B (ďalej len „prevádzkovateľ“).</p>
-<p>Kontakt vo veciach ochrany osobných údajov: <a href="mailto:advokat@welter.sk">advokat@welter.sk</a>, telefón <a href="tel:+421908849910">+421 908 849 910</a>.</p>
+<p>BW AK, s.r.o., advokátska kancelária, so sídlom Dunajská 7614/8, 811 08 Bratislava, IČO 56 621 957, zapísaná v&nbsp;Obchodnom registri Mestského súdu Bratislava III, oddiel Sro, vložka č. 182723/B (ďalej len „prevádzkovateľ“).</p>
+<p>Kontakt vo veciach ochrany osobných údajov: <a href="mailto:advokat@welter.sk">advokat@welter.sk</a>, telefón <a href="tel:+421908849910">+421&nbsp;908&nbsp;849&nbsp;910</a>.</p>
 
 <h2>Návšteva webu bez súhlasu</h2>
-<p>Web www.welter.sk je statická stránka. Bez vášho súhlasu neukladá do vášho zariadenia žiadne analytické cookies a nemeria návštevnosť. V úložisku prehliadača (localStorage) si zapamätá len vašu voľbu (prijatie alebo odmietnutie merania), aby sa lišta nezobrazovala pri každej návšteve.</p>
-<p>Web je hostovaný na službe GitHub Pages (GitHub, Inc.). Pri načítaní stránky, ako pri každom webe, technicky spracúva IP adresu a údaje o prehliadači poskytovateľ hostingu.</p>
+<p>Web www.welter.sk je statická stránka. Bez vášho súhlasu neukladá do vášho zariadenia žiadne cookies. V&nbsp;úložisku prehliadača (localStorage) si zapamätá len vašu voľbu (prijatie alebo odmietnutie merania), aby sa lišta nezobrazovala pri každej návšteve.</p>
+<p>Web je hostovaný na službe GitHub Pages (GitHub, Inc.). Pri načítaní stránky, ako pri každom webe, technicky spracúva IP adresu a&nbsp;údaje o&nbsp;prehliadači poskytovateľ hostingu.</p>
 
-<h2>Meranie návštevnosti (Google Analytics 4)</h2>
-<p><b>Účel:</b> zistiť, koľko ľudí web navštevuje, odkiaľ prichádzajú a či používajú kontaktné údaje. Údaje nepoužívame na reklamu ani na profilovanie. Funkcia Google Signals a reklamné funkcie sú vypnuté.</p>
-<p><b>Právny základ:</b> váš súhlas podľa čl. 6 ods. 1 písm. a) nariadenia (EÚ) 2016/679 (GDPR) a § 109 ods. 8 zákona č. 452/2021 Z. z. o elektronických komunikáciách. Služba sa načíta až po kliknutí na „Prijať“.</p>
-<p><b>Aké údaje:</b> zobrazené stránky, kliknutia na e-mailovú adresu a telefónne číslo, zdroj návštevy, približná poloha odvodená z IP adresy, typ zariadenia a prehliadača. Google Analytics ukladá cookies <code>_ga</code> a <code>_ga_*</code>.</p>
-<p><b>Uchovávanie:</b> údaje o návštevách sa v Google Analytics uchovávajú 2 mesiace.</p>
+<h2>Súhrnná štatistika návštevnosti bez cookies (Cloudflare Web Analytics)</h2>
+<p><b>Účel:</b> zistiť celkový počet návštev, ktoré stránky sa čítajú, odkiaľ návštevníci prichádzajú a&nbsp;ako rýchlo sa web načítava. Služba nepoužíva cookies ani iné úložisko vo vašom zariadení. Podľa poskytovateľa návštevníkov neidentifikuje podľa IP adresy ani podľa údajov o&nbsp;prehliadači.</p>
+<p><b>Právny základ:</b> náš oprávnený záujem na základnej štatistike návštevnosti a&nbsp;na prevádzke webu (čl. 6 ods. 1 písm. f) GDPR). Proti tomuto spracúvaniu môžete kedykoľvek namietať (čl. 21 GDPR).</p>
+<p><b>Aké údaje:</b> adresa zobrazenej stránky (bez parametrov za otáznikom), stránka, z&nbsp;ktorej ste prišli, typ prehliadača, operačného systému a&nbsp;zariadenia, krajina a&nbsp;údaje o&nbsp;rýchlosti načítania stránky.</p>
+<p><b>Uchovávanie:</b> úplné údaje Cloudflare uchováva 7 dní, potom už len ich vzorku na súhrnné štatistiky za posledných 6 mesiacov.</p>
+<p><b>Príjemca:</b> Cloudflare, Inc. (USA), ktorý službu Cloudflare Web Analytics poskytuje.</p>
+<p><b>Prenos do tretích krajín:</b> prenos do USA sa uskutočňuje na základe rámca ochrany údajov EÚ – USA (EU-US Data Privacy Framework), v&nbsp;ktorom je Cloudflare, Inc. certifikovaná.</p>
+
+<h2>Podrobné meranie návštevnosti so súhlasom (Google Analytics 4)</h2>
+<p><b>Účel:</b> zistiť, ako návštevníci web používajú: ktoré stránky a&nbsp;výstupy ich zaujímajú, odkiaľ prichádzajú a&nbsp;či používajú kontaktné údaje. Údaje nepoužívame na reklamu ani na profilovanie. Funkcia Google Signals a&nbsp;reklamné funkcie sú vypnuté.</p>
+<p><b>Právny základ:</b> váš súhlas podľa čl. 6 ods. 1 písm. a) nariadenia (EÚ) 2016/679 (GDPR) a&nbsp;§ 109 ods. 8 zákona č. 452/2021 Z. z. o&nbsp;elektronických komunikáciách. Služba sa načíta až po kliknutí na „Prijať“.</p>
+<p><b>Aké údaje:</b> zobrazené stránky a&nbsp;ako ďaleko ich posúvate, kliknutia na e-mailovú adresu, telefónne číslo a&nbsp;odkazy na iné weby (napríklad na reportáže), použitie filtra v&nbsp;archíve médií, zdroj návštevy, približná poloha odvodená z&nbsp;IP adresy, typ zariadenia a&nbsp;prehliadača. Google Analytics ukladá cookies <code>_ga</code> a <code>_ga_*</code>.</p>
+<p><b>Uchovávanie:</b> údaje o&nbsp;návštevách sa v&nbsp;Google Analytics uchovávajú 2 mesiace.</p>
 <p><b>Príjemca:</b> Google Ireland Limited (Írsko), ktorý službu Google Analytics poskytuje.</p>
-<p><b>Prenos do tretích krajín:</b> údaje môžu byť prenášané do USA spoločnosti Google LLC. Prenos sa uskutočňuje na základe rámca ochrany údajov EÚ – USA (EU-US Data Privacy Framework), v ktorom je Google LLC certifikovaná.</p>
-<p><b>Odvolanie súhlasu:</b> súhlas môžete kedykoľvek odvolať tlačidlom „Nastavenia cookies“ v pätičke a voľbou „Odmietnuť“. Web potom cookies <code>_ga</code> vymaže a meranie sa zastaví. Odvolanie súhlasu nemá vplyv na zákonnosť spracúvania pred jeho odvolaním.</p>
+<p><b>Prenos do tretích krajín:</b> údaje môžu byť prenášané do USA spoločnosti Google LLC. Prenos sa uskutočňuje na základe rámca ochrany údajov EÚ – USA (EU-US Data Privacy Framework), v&nbsp;ktorom je Google LLC certifikovaná.</p>
+<p><b>Odvolanie súhlasu:</b> súhlas môžete kedykoľvek odvolať tlačidlom „Nastavenia cookies“ v&nbsp;pätičke a&nbsp;voľbou „Odmietnuť“. Web potom cookies <code>_ga</code> vymaže a&nbsp;meranie sa zastaví. Odvolanie súhlasu nemá vplyv na zákonnosť spracúvania pred jeho odvolaním.</p>
 <p><button type="button" class="btn" data-consent-open>Zmeniť nastavenie cookies</button></p>
 
 <h2>E-mailová komunikácia</h2>
-<p>Ak nám napíšete na <a href="mailto:advokat@welter.sk">advokat@welter.sk</a>, spracúvame údaje, ktoré nám v správe poskytnete (najmä meno, e-mailovú adresu a obsah správy), na účel vybavenia vašej požiadavky. Právnym základom je vykonanie opatrení pred uzavretím zmluvy na vašu žiadosť alebo plnenie zmluvy (čl. 6 ods. 1 písm. b) GDPR); pri iných požiadavkách náš oprávnený záujem na tom, aby sme vám mohli odpovedať (čl. 6 ods. 1 písm. f) GDPR).</p>
-<p>E-mailovú schránku prevádzkuje Proton AG so sídlom vo Švajčiarsku, pre ktoré Európska komisia prijala rozhodnutie o primeranej úrovni ochrany osobných údajov.</p>
+<p>Ak nám napíšete na <a href="mailto:advokat@welter.sk">advokat@welter.sk</a>, spracúvame údaje, ktoré nám v&nbsp;správe poskytnete (najmä meno, e-mailovú adresu a&nbsp;obsah správy), na účel vybavenia vašej požiadavky. Právnym základom je vykonanie opatrení pred uzavretím zmluvy na vašu žiadosť alebo plnenie zmluvy (čl. 6 ods. 1 písm. b) GDPR); pri iných požiadavkách náš oprávnený záujem na tom, aby sme vám mohli odpovedať (čl. 6 ods. 1 písm. f) GDPR).</p>
+<p>E-mailovú schránku prevádzkuje Proton AG so sídlom vo Švajčiarsku, pre ktoré Európska komisia prijala rozhodnutie o&nbsp;primeranej úrovni ochrany osobných údajov.</p>
 <p>Správy uchovávame po dobu nevyhnutnú na vybavenie požiadavky. Ak vznikne právne zastupovanie, uchovávame ich po dobu, ktorú advokátovi ukladajú právne predpisy.</p>
 
 <h2>Vaše práva</h2>
-<p>Ako dotknutá osoba máte právo na prístup k osobným údajom (čl. 15 GDPR), na ich opravu (čl. 16), vymazanie (čl. 17), obmedzenie spracúvania (čl. 18), prenosnosť (čl. 20) a právo namietať proti spracúvaniu na základe oprávneného záujmu (čl. 21). Súhlas môžete kedykoľvek odvolať (čl. 7 ods. 3 GDPR).</p>
+<p>Ako dotknutá osoba máte právo na prístup k&nbsp;osobným údajom (čl. 15 GDPR), na ich opravu (čl. 16), vymazanie (čl. 17), obmedzenie spracúvania (čl. 18), prenosnosť (čl. 20) a&nbsp;právo namietať proti spracúvaniu na základe oprávneného záujmu (čl. 21). Súhlas môžete kedykoľvek odvolať (čl. 7 ods. 3 GDPR).</p>
 <p>Práva si môžete uplatniť e-mailom na <a href="mailto:advokat@welter.sk">advokat@welter.sk</a>.</p>
 <p>Ak sa domnievate, že spracúvanie vašich údajov porušuje predpisy, máte právo podať návrh na začatie konania Úradu na ochranu osobných údajov Slovenskej republiky (<a href="https://dataprotection.gov.sk" target="_blank" rel="noopener">dataprotection.gov.sk</a>).</p>
 
-<p class="upd">Účinné od 16. 10. 2026.</p>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 BW AK, s. r. o. - advokátska kancelária</p>
-        <p><a href="https://www.legalengineering.sk" target="_blank" style="color: #888; text-decoration: none;">Created by Legal Engineering</a></p>
-        <nav class="foot-links" aria-label="Ochrana údajov"><a href="/ochrana-osobnych-udajov/">Ochrana osobných údajov</a><button type="button" data-consent-open>Nastavenia cookies</button></nav>
-    </footer>
-
-    <div id="consentBar" class="cb" role="region" aria-label="Súhlas s analytickými cookies" hidden>
-        <p>So súhlasom budeme na meranie návštevnosti používať Google Analytics, ktorý ukladá cookies. Bez súhlasu sa návštevnosť nemeria a cookies sa neukladajú. <a href="/ochrana-osobnych-udajov/">Viac o spracúvaní údajov</a></p>
-        <div class="cb-btns"><button type="button" data-c="denied">Odmietnuť</button><button type="button" data-c="granted">Prijať</button></div>
-    </div>
-    <script src="/consent.js"></script>
-
+<p class="upd">Účinné od 28. 10. 2026.</p>
+  </div>
+ </div>
+</main>
+<footer class="footer">
+ <div class="wrap">
+  <p class="footer__brand">BW AK, s.r.o. – advokátska kancelária</p>
+  <dl>
+   <div><dt>Kontaktné údaje</dt><dd>Advokát: Mgr. Branislav Welter<br>Dunajská 7614/8, 811 08 Bratislava<br>Slovenská republika<br><a href="mailto:advokat@welter.sk">advokat@welter.sk</a> · <a href="tel:+421908849910">+421&nbsp;908&nbsp;849&nbsp;910</a></dd></div>
+   <div><dt>Fakturačné údaje</dt><dd>BW AK, s.r.o.<br>Dunajská 7614/8, 811 08 Bratislava – mestská časť Staré Mesto<br>IČO: 56 621 957 · DIČ: 2122362583<br>IBAN: SK49 0200 0000 0045 5953 6154<br>Obchodný register Mestského súdu Bratislava III, oddiel: Sro, vložka č. 182723/B</dd></div>
+   <div><dt>Ďalšie informácie</dt><dd>Licencia SAK: 8229<br>Schránka ÚPVS: E0007209226 (suffix 20069)<br>URI: ico://sk/56621957<br>Právna forma: spoločnosť s&nbsp;ručením obmedzeným<br>Predmet podnikania: poskytovanie právnych služieb</dd></div>
+  </dl>
+  <div class="footer__bottom">
+   <span>© 2026 BW AK, s. r. o. – advokátska kancelária · <a href="https://www.legalengineering.sk" target="_blank" rel="noopener">Created by Legal Engineering</a></span>
+   <nav aria-label="Právne informácie"><a href="/ochrana-osobnych-udajov/">Ochrana osobných údajov</a><button type="button" class="linkbtn" data-consent-open>Nastavenia cookies</button></nav>
+  </div>
+ </div>
+</footer>
+<div id="consentBar" class="cb" role="region" aria-label="Súhlas s analytickými cookies" hidden>
+ <p>So súhlasom budeme na podrobnejšie meranie návštevnosti používať Google Analytics, ktorý ukladá cookies. Bez súhlasu sa cookies neukladajú a&nbsp;počítame len súhrnnú štatistiku návštev bez cookies. <a href="/ochrana-osobnych-udajov/">Viac o&nbsp;spracúvaní údajov</a></p>
+ <div class="cb-btns"><button type="button" data-c="denied">Odmietnuť</button><button type="button" data-c="granted">Prijať</button></div>
+</div>
+<script src="/consent.js" defer></script>
+<script src="/assets/js/site.js" defer></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "aeb7e22fecd3449f97ecd7bbb4a51fd6"}'></script>
 </body>
 </html>
