@@ -26,7 +26,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Postrehy – welter.sk" href="/feed.xml">
 <script>
-window.CONSENT_CFG={key:'welter_consent_v1',ga:'G-4FHE8V2S4T'};
+window.CONSENT_CFG={key:'welter_consent_v1',ga:/(^|\.)welter\.sk$/.test(location.hostname)?'G-4FHE8V2S4T':''};
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});
 gtag('set','ads_data_redaction',true);
