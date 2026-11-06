@@ -780,6 +780,16 @@ a:hover .play, a:focus-visible .play { background: #FFFFFF; }
 .year__h h2 { font-size: 3rem; }
 .register h2 { font-size: 2.5rem; border-bottom: 2px solid var(--ink); }
 .reg td.t { font-family: var(--sans); font-weight: 600; font-size: 1rem; }
+/* register na mobile: dátum + popisky v jednom riadku, titulok pod nimi */
+@media (max-width: 719px) {
+  .reg tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 12px 0; }
+  .reg tr[hidden] { display: none; }
+  .reg td { padding: 0; line-height: 1.5; }
+  .reg td:first-child, .reg td.c-med, .reg td.c-tema, .reg td.c-typ { font-family: var(--mono); font-size: .75rem; color: var(--ink-2); }
+  .reg td:first-child { color: var(--ink); font-weight: 700; }
+  .reg td.t { flex-basis: 100%; margin-top: 4px; }
+  .reg td.c-med::before, .reg td.c-tema::before, .reg td.c-typ::before { content: "· "; color: var(--muted, #777); }
+}
 .card--paper { border-top: 2px solid var(--ink); }
 .card--paper .quote-mark, .paper-card .quote-mark { font-family: var(--serif); color: var(--red); }
 .media-lead .ext:hover { color: var(--ink); background: var(--lime); }
