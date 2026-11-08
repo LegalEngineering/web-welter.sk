@@ -843,3 +843,9 @@ a:hover .play, a:focus-visible .play { background: #FFFFFF; }
   .hero__text { grid-row: 3; }
   .portrait { grid-row: 2 / span 2; align-self: start; margin-top: 12px; }
 }
+
+/* Sociálne siete v pätičke (inline SVG, bez skriptov tretích strán) */
+.footer__social { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 24px; margin-left: -12px; }
+.footer .footer__social a { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; color: var(--ink); text-decoration: none; border-radius: 2px; transition: background-color .15s; }
+.footer .footer__social a:hover, .footer .footer__social a:focus-visible { background: var(--lime); }
+.footer__social svg { display: block; }
