@@ -1,20 +1,20 @@
-# BW AK, s.r.o. – Advokátska kancelária Welter
+# Mgr. Branislav Welter, advokát – BW AK, s.r.o.
 
-> Advokátska kancelária Mgr. Branislava Weltera, advokáta, so sídlom v Bratislave. Právo je systém. Poznáme jeho štruktúru a využijeme ju vo váš prospech.
+> Mgr. Branislav Welter, advokát v Bratislave (advokátska kancelária BW AK, s.r.o.). Právo je systém. Poznám jeho štruktúru a využijem ju vo váš prospech.
 
 BW AK, s.r.o. (na webe aj v tvare „BW AK, s. r. o.“) je advokátska kancelária – spoločnosť s ručením obmedzeným s predmetom podnikania poskytovanie právnych služieb. Sídlo: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika. Klientov prijíma na Dunajskej 8 po dohode termínu. IČO 56 621 957. Zápis: Obchodný register Mestského súdu Bratislava III, oddiel Sro, vložka č. 182723/B. Advokát: Mgr. Branislav Welter, licencia SAK 8229. Web je v slovenčine.
 
-Pri zložitých majetkových, developerských a transakčných projektoch nerozhoduje znalosť jednotlivého paragrafu, ale pochopenie celej štruktúry — vzťahov, rizík, dôsledkov a načasovania. Systém má fungujúce časti, ale aj zraniteľnosti — poznáme oboje a vieme s tým pracovať.
+Pri zložitých majetkových, developerských a transakčných projektoch nerozhoduje znalosť jednotlivého paragrafu, ale pochopenie celej štruktúry — vzťahov, rizík, dôsledkov a načasovania. Systém má fungujúce časti, ale aj zraniteľnosti — poznám oboje a viem s tým pracovať.
 
 Oblasti uvedené na webe:
 
-- Development — za stavebníka, ale aj suseda: Úspešné projekty sú tie, pri ktorých je advokát od prvotnej myšlienky — nie až po dvoch rokoch prieťahov. Projekty konzultujeme od posúdenia možností územného plánu cez úpravu vzťahov vecnými bremenami, nájomnými zmluvami či inými právami. Už pri zrode myšlienky nastavujeme optimálnu štruktúru z hľadiska predajnosti, rizík, optimalizácie nákladov (nielen daňových) a možností financovania. Pokračujeme zastupovaním v konaniach až po finálny predaj, rokovania s kupujúcimi a ich bankami, katastrálne konania či spory z vád. Barikádu poznáme zo všetkých strán — vieme, ako rozmýšľa developer, kupujúci aj nespokojný sused; vieme, ako má konať stavebný úrad a čo robiť, keď nekoná. Rozumieme „starému“ stavebnému zákonu (50/1976 Zb.) aj novému (25/2025 Z. z.) vrátane príležitostí, ktoré priniesli prechodné ustanovenia pre dodatočnú legalizáciu stavieb.
+- Development — za stavebníka, ale aj suseda: Úspešné projekty sú tie, pri ktorých je advokát od prvotnej myšlienky — nie až po dvoch rokoch prieťahov. Projekty konzultujem od posúdenia možností územného plánu cez úpravu vzťahov vecnými bremenami, nájomnými zmluvami či inými právami. Už pri zrode myšlienky nastavujem optimálnu štruktúru z hľadiska predajnosti, rizík, optimalizácie nákladov (nielen daňových) a možností financovania. Pokračujem zastupovaním v konaniach až po finálny predaj, rokovania s kupujúcimi a ich bankami, katastrálne konania či spory z vád. Barikádu poznám zo všetkých strán — viem, ako rozmýšľa developer, kupujúci aj nespokojný sused; viem, ako má konať stavebný úrad a čo robiť, keď nekoná. Rozumiem „starému“ stavebnému zákonu (50/1976 Zb.) aj novému (25/2025 Z. z.) vrátane príležitostí, ktoré priniesli prechodné ustanovenia pre dodatočnú legalizáciu stavieb.
 - Realitné a transakčné štruktúrovanie: Zložitá transakcia sa nezačína šablónou zmluvy. Správne nastavenie musí zohľadniť celý systém — možnosti predaja obchodného podielu, podniku či priamo nehnuteľnosti, (spolu)vlastnícke práva, postoje a záujmy záložných veriteľov na oboch stranách, financovanie, zabezpečenie rizík (escrow, vinkulácia, úschova), daňové a cash-flow dôsledky aj potransakčné riziká. Rýchla transakcia stojí na dobrom úvodnom nastavení štruktúry, ktorú akceptujú strany, banky, daňoví poradcovia aj verejná správa. A následne na precíznych zmluvách, ktoré myslia aj na menej pravdepodobné scenáre.
-- Majetkové a obchodné spory — analytická obrana: Najlepší spor je ten, ktorý nikdy nevznikne — predchádzame mu dobre postavenými zmluvami. Spory sú však bežnou súčasťou podnikania aj súkromného života a advokát je na nezaplatenie už vo fáze, keď je spor ešte len na obzore. Dôkladnou analýzou východiskových podmienok a dostupných možností vieme klienta pripraviť na spor tak, aby v konaní držal taktovku, a nie iba lístok do hľadiska.
+- Majetkové a obchodné spory — analytická obrana: Najlepší spor je ten, ktorý nikdy nevznikne — predchádzam mu dobre postavenými zmluvami. Spory sú však bežnou súčasťou podnikania aj súkromného života a advokát je na nezaplatenie už vo fáze, keď je spor ešte len na obzore. Dôkladnou analýzou východiskových podmienok a dostupných možností viem klienta pripraviť na spor tak, aby v konaní držal taktovku, a nie iba lístok do hľadiska.
 
 ## Stránky
 
-- [Hlavná stránka](https://www.welter.sk/): predstavenie kancelárie, oblasti, výber mediálnych výstupov, postrehy, kontakt.
+- [Hlavná stránka](https://www.welter.sk/): predstavenie advokáta, oblasti, výber mediálnych výstupov, postrehy, kontakt.
 - [Oblasti](https://www.welter.sk/#services): Development; Realitné a transakčné štruktúrovanie; Majetkové a obchodné spory.
 - [Keď systém zlyhá](https://www.welter.sk/#media): výber mediálnych výstupov.
 - [Médiá – úplný archív](https://www.welter.sk/media/): 47 výstupov s filtrom podľa témy a typu a registrom.
@@ -22,13 +22,22 @@ Oblasti uvedené na webe:
 - [Kontakt a fakturačné údaje](https://www.welter.sk/#contact): adresa, e-mail, telefón, IČO, DIČ, IBAN, zápis v ORSR, licencia SAK, schránka ÚPVS.
 - [Ochrana osobných údajov](https://www.welter.sk/ochrana-osobnych-udajov/): štatistika návštevnosti bez cookies (Cloudflare Web Analytics), Google Analytics 4 len so súhlasom, e-mailová komunikácia, práva dotknutej osoby.
 
+## Profily na sociálnych sieťach
+
+Oficiálne profily Mgr. Branislava Weltera, advokáta (všade „advokat.welter“):
+
+- [LinkedIn](https://www.linkedin.com/in/advokat-welter)
+- [Instagram](https://www.instagram.com/advokat.welter)
+- [Facebook](https://www.facebook.com/advokat.welter)
+- [TikTok](https://www.tiktok.com/@advokat.welter)
+
 ## Postrehy
 
 - [Pozemky pod cestami obcí: Ústavný súd otvoril cestu k opakovanej náhrade](https://www.welter.sk/postrehy/nahrada-za-pozemky-pod-stavbami-obci/): Vlastníci pozemkov pod cestami a inými stavbami obcí roky počúvali, že náhrada je premlčaná. Ústavný súd v rokoch 2025 a 2026 tento prístup zmenil. Právny stav k 19. 10. 2026.
 
 ## Keď systém zlyhá
 
-Poisťovňa odmietne plniť. Úrad nekoná, nedoručuje, zamietne. Správca zlyhá. Práve preto, že rozumieme štruktúre systému, vieme presne pomenovať, kde sa zlomil — a navrhnúť nápravu. Médiá nás k týmto prípadom volajú ako odborný hlas:
+Poisťovňa odmietne plniť. Úrad nekoná, nedoručuje, zamietne. Správca zlyhá. Práve preto, že rozumiem štruktúre systému, viem presne pomenovať, kde sa zlomil — a navrhnúť nápravu. Médiá ma k týmto prípadom volajú ako odborný hlas:
 
 Titulky nižšie sú vlastné vecné titulky webu (bez mien osôb z reportáží); odkaz vedie na pôvodný výstup. V relácii Občan za dverami vystupuje Mgr. Branislav Welter výhradne ako nezávislý advokát, nie ako zástupca ľudí z reportáže. Ak sa téma týka klienta kancelárie, účinkovanie neprijíma.
 
@@ -84,7 +93,7 @@ Titulky nižšie sú vlastné vecné titulky webu (bez mien osôb z reportáží
 
 - [advokat@welter.sk](mailto:advokat@welter.sk): e-mail kancelárie, aj pre otázky ochrany osobných údajov.
 - [+421 908 849 910](tel:+421908849910): telefón.
-- Adresa: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika (klientov prijímame na Dunajskej 8 po dohode).
+- Adresa: Dunajská 7614/8, 811 08 Bratislava, Slovenská republika (klientov prijímam na Dunajskej 8 po dohode).
 
 ## Súvisiace weby kancelárie
 
